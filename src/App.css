@@ -1,0 +1,48 @@
+body{
+  background: linear-gradient(to left,#2d00f7, #ff0291);
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.image{
+  box-shadow: 1px 1px 10px 5px  black;
+
+  background-color: aqua;
+}
+.searchi{
+  background: linear-gradient(to left,#2d00f7, #ff0291);
+  position:relative;
+  top:20px;
+  left: 40%;
+  width: 10%;
+  margin-bottom: 20px;
+}
+span{
+  top:10px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border-radius: 5px;
+  width:80%;
+  margin: 30px;;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.spa{
+  display: flex;
+  margin-left: 40px;
+}
+.div-small{
+  display: flex;
+  flex-direction: row;
+}
+.card-container:hover {
+  transform: scale(1.25);
+}
